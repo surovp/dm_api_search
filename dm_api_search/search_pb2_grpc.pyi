@@ -6,7 +6,7 @@ from abc import (
     ABCMeta,
     abstractmethod,
 )
-from apis.dm_api_search.search_pb2 import (
+from dm_api_search.search_pb2 import (
     SearchRequest,
     SearchResponse,
 )
