@@ -1,6 +1,7 @@
 from distutils.core import setup
 REQUIRES = [
     'grpc',
+    'grpcio'
     'structlog'
     ]
 
