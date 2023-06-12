@@ -1,5 +1,8 @@
 from distutils.core import setup
-REQUIRES = []
+REQUIRES = [
+    'grpc',
+    'structlog'
+    ]
 
 setup(
     name='dm_api_search',
